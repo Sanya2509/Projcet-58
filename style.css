@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -52,7 +53,18 @@ body {
     height: 100%;
     z-index: 9;
 }
-
+#work1 {
+   
+    background: linear-gradient(#B300FF  0%, #EBE83F 100%);
+}
+#bio {
+   
+    background: linear-gradient(#00FFFF 0%, #FF00E1 100%);
+}
+#review {
+   
+  background: linear-gradient(#FF61A5 0%, #EBE83F 100%);
+}
 h1 {
     font-size: 40px;
     line-height: 1.2;
@@ -105,6 +117,23 @@ p {
     text-align: center;
     vertical-align: middle;
 
+}
 
+html {
+    scroll-behavior: smooth;
 
 }
+
+.links:hover {
+    background-color: aqua;
+}
+a {
+
+    text-decoration: none;
+}
+
+.anchor:hover {
+    color: crimson;
+}
+
+
