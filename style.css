@@ -14,9 +14,8 @@ body {
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
-    right: 36px;
     z-index: 10;
     cursor: pointer;
 }
@@ -26,8 +25,9 @@ body {
     color: black;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+
+    padding-left: 35px;
+    padding-right: 25px;
     font-family: 'Girassol', cursive;
     font-size: 20px;
 
@@ -57,6 +57,19 @@ body {
 #work1 {
 
     background: linear-gradient(#B300FF 0%, #EBE83F 100%);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 3px solid purple;
+  background-color: #f3f3f3;
+}
+
+#contact {
+
+    background: linear-gradient(#ba91e6 0%, #f046ea 100%);
 }
 
 #bio {
@@ -129,10 +142,7 @@ p {
 
 }
 
-html {
-    scroll-behavior: smooth;
 
-}
 
 .links:hover {
     background-color: aqua;
@@ -155,4 +165,28 @@ img {
 img:hover {
     transform: scale(0.9);
 
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+#writing a {
+    text-decoration: underline !important;
+    color:  !important;
+
+}
+
+#contact iframe {
+    width: 70%
+}
+
+li a {
+  
+    color: black;
+    text-align: center;
+    padding: 9px 13px;
+    text-decoration: none;
 }
